@@ -16,41 +16,14 @@ Quy tắc: Một cuốn sách có thể thuộc 1 mã BISAC nhưng được thu�
 ### 2. Cấu trúc 4 Root Categories (4 Lục địa gốc)
 Toàn bộ thị trường sách chia làm 4 nhóm chính. Đây là bảng phân loại chi tiết để bạn chọn hướng đi:
 
-Root Category,Bản chất,Độ khó Content,Mức độ Cạnh tranh,Chiến thuật phù hợp
-1. Non-Fiction,"Sự thật, Kiến thức, Kỹ năng",Trung bình,Cao,Đi vào ngách kỹ thuật sâu (Micro-niche).
-2. Fiction,"Hư cấu, Tiểu thuyết, Thơ",Rất cao,Rất cao (Red Ocean),BỎ QUA (Trừ khi bạn là nhà văn chuyên nghiệp).
-3. Education & Reference,"Công cụ, Tra cứu, Bài tập",Thấp,Trung bình,KEY STRATEGY. Dễ scale số lượng lớn.
-4. Children's Books,"Hình ảnh, Hoạt họa",Thấp (về chữ),Cao (về hình),Cần kỹ năng AI Art / Design tốt.
-Gemini said
-Bạn nói đúng. Bản tóm tắt vừa rồi đã bị "lược giản" quá nhiều, làm mất đi tính chiến thuật và chiều sâu dữ liệu mà chúng ta đã thảo luận (về Taxonomy, về cây thư mục, về tư duy 10 cấp độ).
+|#| Root Category | Bản chất | Độ khó Content | Mức độ Cạnh tranh | Chiến thuật phù hợp |
+|---|----------|--------|-------------|-------------|-------------|
+| 1 | Non-Fiction | Sự thật, Kiến thức, Kỹ năng | Trung bình | Cao | Đi vào ngách kỹ thuật sâu (Micro-niche). |
+| 2 | Fiction | Hư cấu, Tiểu thuyết, Thơ | Rất cao | Rất cao (Red Ocean) | BỎ QUA (Trừ khi bạn là nhà văn chuyên nghiệp). |
+| 3 | Education & Reference | Công cụ, Tra cứu, Bài tập | Thấp | Trung bình | KEY STRATEGY. Dễ scale số lượng lớn. |
+| 4 | Children's Books | Hình ảnh, Hoạt họa | Thấp (về chữ) | Cao (về hình) | Cần kỹ năng AI Art / Design tốt.
 
-Đây là bản Full Documentation (Tài liệu kỹ thuật đầy đủ). Tôi đã khôi phục lại toàn bộ các dữ liệu chi tiết, các bảng phân loại BISAC/Browse Nodes, và quy trình tư duy logic chính xác như trong cuộc hội thoại.
 
-Hãy copy nội dung dưới đây vào file .md hoặc .docx. Đây mới là thứ bạn cần.
-
-DOCUMENTATION: HỆ THỐNG KDP ZERO-COST & CHIẾN LƯỢC 10 CẤP ĐỘ
-Phiên bản: 2.0 (Full Technical Breakdown) Đối tượng: Coder / System Thinker Mục tiêu: Xây dựng tài sản số (Digital Assets) trên Amazon KDP bằng tư duy khai thác dữ liệu và ngách sâu.
-
-## PHẦN 2: HỆ THỐNG DỮ LIỆU SÁCH (THE TAXONOMY SYSTEM)
-Để thắng trên Amazon, bạn phải hiểu cấu trúc dữ liệu của nó. Không đánh bừa, phải đánh dựa trên bản đồ.
-
-### 1. Cơ chế Mapping (Ánh xạ dữ liệu)
-Hệ thống phân loại của Amazon hoạt động dựa trên 2 luồng dữ liệu:
-
-Input (Đầu vào - BISAC): Mã phân loại chuẩn ngành sách (Book Industry Standards and Communications). Đây là thứ bạn chọn khi upload.
-
-Output (Đầu ra - Browse Nodes): Cây thư mục hiển thị trên Store mà khách hàng nhìn thấy.
-
-Quy tắc: Một cuốn sách có thể thuộc 1 mã BISAC nhưng được thuật toán map sang nhiều Browse Nodes khác nhau. Chiến thuật là tìm các Leaf Nodes (nhánh lá cùng) nơi ít cạnh tranh nhất.
-
-### 2. Cấu trúc 4 Root Categories (4 Lục địa gốc)
-Toàn bộ thị trường sách chia làm 4 nhóm chính. Đây là bảng phân loại chi tiết để bạn chọn hướng đi:
-
-Root Category	Bản chất	Độ khó Content	Mức độ Cạnh tranh	Chiến thuật phù hợp
-1. Non-Fiction	Sự thật, Kiến thức, Kỹ năng	Trung bình	Cao	Đi vào ngách kỹ thuật sâu (Micro-niche).
-2. Fiction	Hư cấu, Tiểu thuyết, Thơ	Rất cao	Rất cao (Red Ocean)	BỎ QUA (Trừ khi bạn là nhà văn chuyên nghiệp).
-3. Education & Reference	Công cụ, Tra cứu, Bài tập	Thấp	Trung bình	KEY STRATEGY. Dễ scale số lượng lớn.
-4. Children's Books	Hình ảnh, Hoạt họa	Thấp (về chữ)	Cao (về hình)	Cần kỹ năng AI Art / Design tốt.
 ### 3. Deep Dive Database: Ví dụ về Cây thư mục (Taxonomy Tree)
 Minh họa sự phân nhánh từ Gốc đến Ngọn của 2 ngành:
 
@@ -127,11 +100,10 @@ L9: Logbook (Sổ ghi chép - Low Content)
 
 L10 (Sản phẩm): "The Debugger's Black Book: A Professional Log for Tracking Bugs & Solutions"
 
-## PHẦN 3: CÁC LOẠI HÌNH SÁCH (PRODUCT TYPES)
-PHẦN 3: CÁC LOẠI HÌNH SÁCH (PRODUCT TYPES CLASSIFICATION)
+## PHẦN 2: CÁC LOẠI HÌNH SÁCH (PRODUCT TYPES CLASSIFICATION)
 Trên nền tảng Amazon KDP, sản phẩm sách được phân loại dựa trên "Mật độ nội dung" (Content Density) và "Mức độ tương tác" (User Interaction). Hiểu rõ 3 nhóm chính này giúp bạn chọn đúng chiến trường phù hợp với kỹ năng và nguồn lực của mình.
 
-1. High Content (Sách Nội Dung Cao - Reading Books)
+### 1. High Content (Sách Nội Dung Cao - Reading Books)
 Đây là dạng sách truyền thống, nơi giá trị nằm ở thông tin, kiến thức hoặc câu chuyện.
 
 Định nghĩa: Sách chứa toàn chữ (hoặc hình minh họa phức tạp), người dùng mua để ĐỌC.
@@ -210,7 +182,7 @@ Rủi ro tài khoản: Amazon kiểm soát rất gắt gao về "Duplicate Conte
 
 Không có mã ISBN miễn phí: Với một số loại Low Content (như sổ dòng kẻ trơn), Amazon không cấp ISBN miễn phí nữa.
 
-## PHẦN 4: QUY TRÌNH KỸ THUẬT (TECHNICAL EXECUTION)
+## PHẦN 3: QUY TRÌNH KỸ THUẬT (TECHNICAL EXECUTION)
 Quy trình 0 đồng từ A-Z với các thông số kỹ thuật chính xác.
 
 ### Bước 1: Setup Tài khoản
@@ -255,7 +227,7 @@ Chiến thuật: Điền các cụm từ dài (Long-tail) tìm được ở Cấ
 
 Ví dụ: "coding gift for men", "programmer notebook", "debugging tool".
 
-## PHẦN 5: CHECKLIST DÀNH RIÊNG CHO CODER
+## PHẦN 4: CHECKLIST DÀNH RIÊNG CHO CODER
 Bạn có lợi thế kỹ thuật, hãy tận dụng nó:
 
 Automate Content: Viết script Python để tạo ra 1000 bài toán cộng trừ nhân chia hoặc 500 bài tập Regex -> Đóng gói thành "Math Workbook" hoặc "Regex Workbook".
@@ -264,7 +236,7 @@ Scrape Ideas: Dùng tool cào dữ liệu Amazon để xem cuốn Logbook nào �
 
 Niche Tech: Làm Logbook cho các ngách hẹp bạn biết: "Crypto Trading Journal", "Server Maintenance Log", "IP Proxy Config Checklist".
 
-## PHẦN 6: LUẬT CHƠI CỦA AMAZON (2025-2026)
+## PHẦN 5: LUẬT CHƠI CỦA AMAZON (2025-2026)
 một "cái bẫy" chết người mà rất nhiều người mới làm KDP (Newbie) mắc phải, dẫn đến việc tài khoản bị khóa vĩnh viễn (Account Termination) vì lỗi "Duplicate Content" (Trùng lặp nội dung).
 
 Dưới đây là phân tích chi tiết để bạn hiểu "luật chơi" hiện tại của Amazon (2025-2026):
